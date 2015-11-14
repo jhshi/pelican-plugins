@@ -3,17 +3,17 @@ Pelican Plugins
 
 Beginning with version 3.0, Pelican supports plugins. Plugins are a way to add
 features to Pelican without having to directly modify the Pelican core. Starting
-with 3.2, all plugins (including the ones previously in the core) are
-moved here, so this is the central place for all plugins.
+with 3.2, all plugins (including the ones previously in the core) have been
+moved to this repository, so this is the central place for all plugins.
 
 How to use plugins
 ==================
 
-Easiest way to install and use these plugins is cloning this repo::
+The easiest way to install and use these plugins is to clone this repo::
 
     git clone --recursive https://github.com/getpelican/pelican-plugins
 
-and activating the ones you want in your settings file::
+and activate the ones you want in your settings file::
 
     PLUGIN_PATHS = ['path/to/pelican-plugins']
     PLUGINS = ['assets', 'sitemap', 'gravatar']
@@ -110,6 +110,8 @@ Interlinks                Lets you add frequently used URLs to your markup using
 
 Libravatar                Allows inclusion of user profile pictures from libravatar.org
 
+Link Class                Allows the insertion of class attributes into generated <a> elements (Markdown only)
+
 Liquid-style tags         Allows liquid-style tags to be inserted into markdown within Pelican documents
 
 Load CSV                  Adds ``csv`` Jinja tag to display the contents of a CSV file as an HTML table
@@ -156,7 +158,7 @@ Pin to top                Pin Pelican's article(s) to top "Sticky article"
 
 PlantUML                  Allows you to define UML diagrams directly into rst documents using the great PlantUML tool
 
-Post Revision             Extract article and page revision information from Git commit history.
+Post Revision             Extract article and page revision information from Git commit history
 
 Post statistics           Calculates various statistics about a post and store them in an article.stats dictionary
 
