@@ -50,7 +50,7 @@ Better code samples       Wraps all `table` blocks with a class attribute `.code
 
 Better figures/samples    Adds a `style="width: ???px; height: auto;"` attribute to any `<img>` tags in the content
 
-bootstrapify              Automatically add bootstraps default classes to your content, usefull for md generated tables
+bootstrapify              Automatically add bootstraps default classes to your content
 
 Category Order            Order categories (and tags) by the number of articles in that category (or tag).
 
@@ -128,7 +128,7 @@ Optimize images           Applies lossless compression on JPEG and PNG images
 
 Page View                 Pull page view count from Google Analytics.
 
-PDF generator             Automatically exports RST articles and pages as PDF files
+PDF generator             Automatically exports articles and pages as PDF files
 
 PDF Images                If an img tag contains a PDF, EPS or PS file as a source, this plugin generates a PNG preview which will then act as a link to the original file.
 
@@ -179,6 +179,8 @@ Replacer                  Replace a text of a generated HTML
 Representative image      Extracts a representative image (i.e, featured image) from the article's summary or content
 
 RMD Reader                Create posts via knitr RMarkdown files
+
+Section number            Adds section numbers for article headers, in the form of ``2.3.3``
 
 Share post                Creates share URLs of article
 
